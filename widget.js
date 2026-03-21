@@ -18,7 +18,7 @@
     welcome:  script.dataset.welcome || 'Hi there! How can I help you today? 👋',
     title:    script.dataset.title   || 'Support',
     position: script.dataset.position|| 'bottom-right',
-    apiBase:  script.dataset.api     || 'https://nexusai-alb-732208425.ap-southeast-1.elb.amazonaws.com/api/v1',
+    apiBase:  script.dataset.api     || 'http://nexusai-alb-732208425.ap-southeast-1.elb.amazonaws.com/api/v1',
     token:    script.dataset.token   || '',
     branding: script.dataset.branding !== 'false',
   };
